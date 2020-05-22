@@ -1,3 +1,17 @@
+#top {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+small {
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+
 /* Navbar container */
 
 .navbar {
@@ -5,6 +19,7 @@
     background-color: #333;
     font-family: Arial;
     float: right;
+    width: 50%;
 }
 
 
@@ -15,7 +30,7 @@
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
@@ -30,12 +45,16 @@
 
 /* Dropdown button */
 
+.dropbtn {
+    width: 110px;
+}
+
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 10px 12px;
     background-color: inherit;
     font: inherit;
     /* Important for vertical align on mobile phones */
@@ -62,6 +81,7 @@
     right: 0;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    opacity: 75%;
 }
 
 
